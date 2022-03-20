@@ -10,22 +10,22 @@
 
 ## API URL
 
-url: localhost:8081/login \
-method: POST \
-form-data \
+Url: localhost:8081/login \
+Method: POST \
+Form-Data \
 username: admin \
 password: admin
 
-url: localhost:8081/api/competion \
-method: GET \
+Url: localhost:8081/api/competion \
+Method: GET \
 Header \
 Autorization: Bearer {TokenJWT} \
 queryString \
 competition: UEFA Champions League \
 page: 1
 
-url: localhost:8081/api/schedule \
-method: GET \
+Url: localhost:8081/api/schedule \
+Method: GET \
 Header \
 Autorization: Bearer {TokenJWT} \
 queryString \
