@@ -16,7 +16,7 @@ Form-Data \
 username: admin \
 password: admin
 
-Url: localhost:8081/api/competion \
+Url: localhost:8081/api/competition \
 Method: GET \
 Header \
 Autorization: Bearer {TokenJWT} \

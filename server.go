@@ -212,7 +212,7 @@ func main() {
 	r.Use(middleware.JWTWithConfig(config))
 
 	// Routes
-	r.GET("/competion", getCompetion)
+	r.GET("/competition", getCompetion)
 	r.GET("/schedule", getSchedule)
 
 	e.POST("/login", login)
